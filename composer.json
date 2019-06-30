@@ -1,0 +1,25 @@
+{
+  "name": "yonna/event",
+  "description": "Yonna 事件",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "yonna",
+    "framework",
+    "event"
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Yonna\\Event\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "hunzsig",
+      "email": "mzyhaohaoren@qq.com",
+      "homepage": "https://www.hunzsig.org"
+    }
+  ]
+}
