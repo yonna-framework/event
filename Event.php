@@ -33,7 +33,11 @@ abstract class Event
     {
         $this->listeners = $listeners;
         foreach ($this->listeners as $l) {
-            (new $l($this))->handle();
+            /**
+             * @var Listener $lis
+             */
+            $lis = new $l($this);
+            $lis->handle();
         }
     }
 
