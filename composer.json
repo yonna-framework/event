@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": "~7.3",
-    "yonna/foundation": "@dev"
+    "yonna/foundation": "~1.0"
   },
   "autoload": {
     "psr-4": {
